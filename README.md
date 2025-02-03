@@ -23,8 +23,10 @@ Customized the legacy BERT architecture by integrating recent research advanceme
 - **Auto Mixed Precision** ⚖️  
   Auto Mixed Precision (AMP) enables the use of both 16-bit and 32-bit floating point types during training. By intelligently switching between precisions, the model can achieve faster training speeds and reduced memory usage without sacrificing accuracy.
 
-- **Uniform Length Batching** 📦  
-  Uniform length batching standardizes the sequence lengths within a batch, minimizing the need for dynamic padding. This method reduces the computational overhead associated with variable-length sequences and leads to more efficient use of resources during training.
+- **Uniform Length Batching** 📦  [Blog Link](https://medium.com/@sukeshram5/smart-batching-will-speed-up-the-model-training-ce7aa935b094)
+
+
+  Uniform length batching standardizes the sequence lengths within a batch, minimizing the need for dynamic padding. This method reduces the computational overhead associated with variable-length sequences and leads to more efficient use of resources during training.  
 
 ---
 
